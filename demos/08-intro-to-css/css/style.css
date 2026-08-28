@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#p1 {
+    color:#5fce3d;
+}
+#p2 {
+    background-color: red;
+    color: white;
+}
+
+#s1 {
+    background-color: yellow;
+    color: purple;
+}
+
+#name {
+    color: rgb(224, 152, 164);
+    background-color: black;
+}
+
+#waffles {
+    color: brown;
+}
+
+#coffee {
+    color: brown;
+}

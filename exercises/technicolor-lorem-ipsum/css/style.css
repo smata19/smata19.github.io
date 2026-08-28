@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#group-1 {
+    background-color: red;
+    color: white;
+}
+
+#grupo-2 {
+    background-color: rgb(255, 72, 0);
+    color: white;
+}
+
+#groupe-3 {
+    background-color: rgb(238, 129, 28);
+    color: white;
+}
+
+#words {
+    background-color: yellow;
+    color: red;
+}
+
+#letras {
+    background-color: yellow;
+    color: red;
+}
+
+#mot {
+    background-color: yellow;
+    color: red;
+}
+
+#palabras {
+    background-color: yellow;
+    color: red;
+}
+
+#letters {
+    background-color: yellow;
+    color: red;
+}
+
+#une-lettre {
+    background-color: yellow;
+    color: red;
+}
+
+#gruppe-4 {
+    background-color: yellow;
+}
+
+#pismo {
+    background-color: blue;
+    color: white;
+}
+
+#slohvuh {
+    background-color: blue;
+    color: white;
+}
+
+#xiaozu {
+    background-color: rgb(208, 255, 0);
+}
+
+#zi {
+    background-color: blue;
+    color: white;
+}
+
+#xin {
+    background-color: blue;
+    color: white;
+}
