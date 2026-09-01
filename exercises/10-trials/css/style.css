@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#abc {
+    color: green;
+}
+
+#def {
+    color: #F711F7;
+}
+#ghi {
+    color: #F711F7;
+}
+
+#jkl {
+    color: red;
+}
+#mno {
+    color: goldenrod;
+}
+#pqr {
+    color: blue;
+}
+
+#stu {
+    background-color: skyblue;
+}
+
+#vwx {
+    background-color: rgb(255, 255, 0);
+}
+
+#yz-1 {
+    font-weight: bold;
+}
+#shm {
+    font-weight: bold;
+}
+
+#cba {
+    font-weight: bold;
+}
+#alg {
+    font-style: italic;
+}
+#gla {
+    font-style: italic;
+}
+
+#fed {
+    text-decoration: underline;
+}
+#ihg {
+    text-decoration: underline;
+}
+
+#lkj {
+    text-align: right;
+    font-size: 3em;
+}
+
+#small {
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+#large {
+    font-size: 48px;
+}
+#medium {
+    font-size: 24px;
+    font-style: italic;
+    text-align: center;
+}
