@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#p1 {
+    color: pink;
+}
+
+.bulldog {
+    background-color: #cf76cf;
+    margin: 24px;
+    padding: 24px;
+    /* x-offset, y-offseet, blur-radious, color*/
+    box-shadow: 4px 4px 4px rgb(148, 12, 211);
+}
+
+p {
+    font-family: monospace;
+    color: white;
+}
