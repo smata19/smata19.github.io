@@ -6,3 +6,25 @@
 
     Good luck, and have fun!
 */
+
+.post-it {
+    background-color: yellow;
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 24px;
+    padding: 24px;
+    vertical-align: top;
+    box-shadow: 2px 2px 2px rgb(105, 103, 103);
+}
+
+#vote {
+    text-decoration: underline;
+    font-size: xx-large;
+}
+
+#color {
+    color: red;
+    font-size: x-large;
+}
