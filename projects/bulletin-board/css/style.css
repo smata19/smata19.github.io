@@ -28,3 +28,15 @@
     color: red;
     font-size: x-large;
 }
+
+img {
+    width: 150px;
+}
+
+#sticky-note {
+    background-color: pink;
+}
+
+#white {
+    color: white;
+}
