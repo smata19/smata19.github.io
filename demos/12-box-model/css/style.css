@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+div {
+    margin: 30px;
+    padding: 20px 20px;
+    border-style: dotted;
+    border-color: pink;
+}
+
+p {
+    margin: 100px;
+    padding: 50px;
+    border: 5px solid rgb(228, 144, 228);
+}
+
+span {
+    margin: 10px;
+    padding-inline: 20px;
+    border-radius: 5px 5px;
+    border-style: double;
+}
