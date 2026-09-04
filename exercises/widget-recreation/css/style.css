@@ -8,7 +8,7 @@ body {
 }
 
 .calendar {
-    border: solid grey;
+    border: solid rgba(128, 128, 128, 0.438) 2px;
     display: inline-block;
     border-radius: 40px;
     padding: 20px;
@@ -33,24 +33,26 @@ body {
 .event {
     border-left: 5px solid purple;
     background-color: #ebc5eb;
-    padding-left: 20px;
-    margin-bottom: 0px;
-    padding-top: 0px;
+    padding-left: 25px;
+    margin-bottom: 3px;
+    padding-right: 10px;
 }
 
 .event-name {
     font-size: 20px;
     color: purple;
-    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 0px;
 }
 
 .event-type {
     font-size: 20px;
-    margin-bottom: 13px;
-    padding-top: 0px;
+    margin: 0px;
+    padding-top: 5px;
 }
 
 .time {
     font-size: 20px;
     padding-top: 0px;
+    padding-bottom: 5px;
 }
