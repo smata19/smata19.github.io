@@ -20,31 +20,37 @@ body {
     font-size: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
+    padding-top: 0px;
 }
 
 .date {
-    font-size: 40px;
+    font-size: 50px;
     margin-top: 10px;
     margin-bottom: 20px;
+    padding-top: 0px;
 }
 
 .event {
     border-left: 5px solid purple;
     background-color: #ebc5eb;
-    padding: 0px;
-    margin-bottom: 13px;
+    padding-left: 20px;
+    margin-bottom: 0px;
+    padding-top: 0px;
 }
 
 .event-name {
     font-size: 20px;
+    color: purple;
+    padding-top: 0px;
 }
 
 .event-type {
-    color: purple;
     font-size: 20px;
     margin-bottom: 13px;
+    padding-top: 0px
 }
 
 .time {
     font-size: 20px;
+    padding-top: 0px
 }
