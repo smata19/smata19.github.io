@@ -7,7 +7,7 @@
 body {
     margin: 0px;
     font-family: sans-serif;
-    background-color: #02201fe3;
+    background: linear-gradient(#4ff6f1, #02201f);
 }
 
 img {
