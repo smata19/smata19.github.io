@@ -13,7 +13,7 @@ body {
     max-width: 400px;
     margin-left: auto;
     margin-right: auto;
-    padding: 20px;
+    padding: 24px;
     text-align: center;
 }
 
@@ -34,6 +34,9 @@ body {
 
 img {
     width: 100%;
+    padding: auto;
+    border-style: dashed;
+    border-radius: 100%;
 }
 
 .button {
@@ -55,7 +58,7 @@ img {
 }
 
 .second {
-    background-color: #2af52a;
+    background-color: #000000;
     color: white;
     padding: 12px;
     border-radius: 16px;
@@ -65,8 +68,8 @@ img {
 }
 
 .third {
-    background-color: #ff0080;
-    color: white;
+    background-color: #ffffff;
+    color: #000000;
     padding: 12px;
     border-radius: 16px;
     font-size: 20px;
@@ -80,19 +83,29 @@ h1 {
     font-style: normal;
 }
 
-.column-1 .container h5 {
-    color: purple;
+.column-1 .container h1 {
+    color: #da2d98;
+    font-size: 50px;
 }
 
 .column-2 .container h2 {
-    color: #eeff00;
+    color: #00e1ff;
+    font-size: 40px;
 }
 
 .column-3 .container h2 {
-    color: blue;
+    color: #fefeff;
+    font-size: 40px;
 }
 
 #red {
     color: red;
-    font-size: 30px;
+}
+
+p {
+    margin: 15px 15px;
+}
+
+h2 {
+    margin: 15px 15px;
 }
