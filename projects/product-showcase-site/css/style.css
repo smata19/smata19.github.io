@@ -20,7 +20,6 @@ body {
 .column-1 {
     background-color: rgb(250, 246, 0);
     padding: 20px;
-    text-align: center;
 }
 
 .column-2 {
@@ -40,6 +39,9 @@ img {
 .button {
     text-decoration: none;
     display: inline-block;
+    font-family: "Fondamento", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .first {
@@ -63,7 +65,7 @@ img {
 }
 
 .third {
-    background-color: #df3a8c;
+    background-color: #ff0080;
     color: white;
     padding: 12px;
     border-radius: 16px;
@@ -76,4 +78,21 @@ h1 {
     font-family: "Fondamento", cursive;
     font-weight: 400;
     font-style: normal;
+}
+
+.column-1 .container h5 {
+    color: purple;
+}
+
+.column-2 .container h2 {
+    color: #eeff00;
+}
+
+.column-3 .container h2 {
+    color: blue;
+}
+
+#red {
+    color: red;
+    font-size: 30px;
 }
