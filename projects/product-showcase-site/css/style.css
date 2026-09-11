@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fondamento:ital@0;1&family=Nerko+One&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -19,7 +21,6 @@ body {
     background-color: rgb(250, 246, 0);
     padding: 20px;
     text-align: center;
-    width: 100%;
 }
 
 .column-2 {
@@ -69,4 +70,10 @@ img {
     font-size: 20px;
     font-weight: bold;
     margin-right: 12px;
+}
+
+h1 {
+    font-family: "Fondamento", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
