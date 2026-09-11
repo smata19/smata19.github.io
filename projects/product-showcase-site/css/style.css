@@ -19,6 +19,7 @@ body {
     background-color: rgb(250, 246, 0);
     padding: 20px;
     text-align: center;
+    width: 100%;
 }
 
 .column-2 {
