@@ -8,42 +8,91 @@ body {
 }
 
 #navbar {
-    background-color: #e0d9ad;
+    background-color: #e7e2c2;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     position: sticky;
     top: 0px;
     padding: 30px;
+    border-bottom:#000000 2px solid;
+    gap: 30px;
+    
 }
 
 #navbar a {
-    color: #773434;
+    color: #000000;
     text-decoration: none;
 }
 
-.center-single-column {
+#logo {
     display: flex;
-    align-items: center;
-    gap: 30px;
+    align-self: flex-start;
+    margin-right: auto;
+    font-size: 30px;
 }
 
-#center-single-column img {
-    width: 500px;
+.center-single-column {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
+    margin-bottom: 100px;
+}
+
+.media-and-text {
+    display: flex;
+    background-color: #e7e2c2;
+    margin-bottom: 0px;
+}
+
+.media-and-text img {
+    height: 850px;
 }
 
 .recipe {
-    display: flex;
+    justify-content: center;
+    border-style: dashed;
+    padding: 30px;
+    margin-left: 46px;
+    margin-right: 46px;
+    margin-bottom: 56px;
+    margin-top: 56px;
 }
 
 .instructions {
     display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-top: solid;
+    border-bottom: solid;
+    text-align: center;
+    margin: 90px 50px;
 }
 
-#cards {
+.instructions h5 {
+    font-size: 15px;
+
+}
+
+.time-prep {
+    border-right: solid;
+    padding-right: 30px;
+}
+
+.time-cook {
+    border-right: solid;
+    padding-right: 30px;
+
+}
+
+.cards {
     display: flex;
     justify-content: space-evenly;
 }
 
 h1 {
     text-align: center;
+}
+
+hr {
+    margin-top: 0px;
 }
