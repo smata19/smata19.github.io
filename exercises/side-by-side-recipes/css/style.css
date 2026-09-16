@@ -41,11 +41,10 @@ body {
 .media-and-text {
     display: flex;
     background-color: #e7e2c2;
-    margin-bottom: 0px;
 }
 
 .media-and-text img {
-    height: 850px;
+    width: 850px;
 }
 
 .recipe {
@@ -65,7 +64,7 @@ body {
     border-top: solid;
     border-bottom: solid;
     text-align: center;
-    margin: 90px 50px;
+    margin: 90px;
 }
 
 .instructions h5 {
