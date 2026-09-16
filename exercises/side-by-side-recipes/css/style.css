@@ -27,7 +27,7 @@ body {
     gap: 30px;
 }
 
-img {
+#center-single-column img {
     width: 500px;
 }
 
@@ -37,4 +37,13 @@ img {
 
 .instructions {
     display: flex;
+}
+
+#cards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h1 {
+    text-align: center;
 }
