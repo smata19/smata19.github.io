@@ -6,3 +6,35 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
+
+#navbar {
+    background-color: #e0d9ad;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+    padding: 30px;
+}
+
+#navbar a {
+    color: #773434;
+    text-decoration: none;
+}
+
+.center-single-column {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+img {
+    width: 500px;
+}
+
+.recipe {
+    display: flex;
+}
+
+.instructions {
+    display: flex;
+}
