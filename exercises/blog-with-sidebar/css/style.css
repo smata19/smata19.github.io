@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Fondamento:ital@0;1&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background: linear-gradient(#4ff6f1, #02201f);
+}
+
+img {
+    width: 100%;
+    border-radius: 30px;
+    margin-top: 50px;
+    box-shadow: 10px 10px 6px #ffffff2f;
+}
+
+#blog {
+    background-color: #196864;
+    max-width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 30px;
+}
+
+#heading {
+    color: #dcdf18;
+}
+
+#heading {
+    font-family: "Fondamento", cursive;
+    font-weight: 400;
+    font-style: normal;
+    padding: 15px;
+}
+
+p {
+    padding-top: 50px;
+    text-align: center;
+    color: white;
+}
+
+#two-columns {
+    display: flex;
+    max-width: 800px;
+    margin: 24px auto;
+}
+
+#sidebar-column {
+    width: 250px;
+    order: 2;
+    padding: 18px;
+}
+
+#single-column {
+    flex: 1;
+    gap: 1;
+}
+
+#sidebar-column h2 {
+    background-color: #055241;
+    padding: 12px;
+    font-size: 18px;
+    color: #d4d110;
+    margin: 0px;
+}
+
+#sidebar-column ul {
+    background-color: #16887e;
+    margin: 0px 0px 36px;
+    padding: 0px 12px;
+    list-style-type: none;
+    border: 1px solid #023828;
+}
+
+#sidebar-column a {
+    color: #e9e9db;
+    text-decoration: none;
+}
+
+#sidebar-column li {
+    padding: 8px 0px;
+    border-bottom: 1px solid #076e58;
+}
+
+/* PSEUDO-CLASS */
+#sidebar-column li:last-child {
+    border-bottom: 0px;
+}
