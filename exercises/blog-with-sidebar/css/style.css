@@ -55,6 +55,7 @@ p {
     width: 250px;
     order: 2;
     padding: 18px;
+    margin-top: 32px;
 }
 
 #single-column {
@@ -63,11 +64,15 @@ p {
 }
 
 #sidebar-column h2 {
-    background-color: #055241;
-    padding: 12px;
+    background-color: #196864;
+    padding: 19px;
     font-size: 18px;
-    color: #d4d110;
+    color: #dcdf18;
     margin: 0px;
+    border-radius: 30px 30px 0px 0px;
+    font-family: "Fondamento", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 
 #sidebar-column ul {
@@ -76,19 +81,25 @@ p {
     padding: 0px 12px;
     list-style-type: none;
     border: 1px solid #023828;
+    border-radius: 0px 0px 22px 22px;
 }
 
 #sidebar-column a {
-    color: #e9e9db;
+    color: #fdfdfd;
     text-decoration: none;
 }
 
 #sidebar-column li {
     padding: 8px 0px;
-    border-bottom: 1px solid #076e58;
+    border-bottom: 1px solid #196864;
 }
 
 /* PSEUDO-CLASS */
 #sidebar-column li:last-child {
     border-bottom: 0px;
+}
+
+#sticky-sidebar {
+    position: sticky;
+    top: 24px;
 }
