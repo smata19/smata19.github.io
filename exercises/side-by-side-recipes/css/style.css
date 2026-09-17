@@ -5,6 +5,7 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-color: #e7e2c2;
 }
 
 #navbar {
@@ -29,34 +30,35 @@ body {
     font-size: 30px;
 }
 
-.single-column {
+#single-column {
     max-width: 1200px;
     margin: 36px auto;
 }
 
-.media-and-text {
-    background-color: #e7e2c2;
-}
-
 .media-and-text img {
-    width: 800px;
+    width: 100%;
 }
 
 .recipe {
     display: flex;
     gap: 24px;
     padding: 30px;
+    align-items: center;
 }
 
 #left img {
     margin: 25px;
 }
 
+#left {
+    flex: 1;
+}
+
 #right {
     border-style: dashed;
     margin: 100px 50px;
-    margin-bottom: 200px;
-    padding: 50px
+    padding: 50px;
+    flex: 1;
 }
 
 .instructions {
@@ -88,27 +90,31 @@ body {
 .cards-container {
     display: flex;
     gap: 24px;
-    text-align: center;
-    background-color: #e7e2c2;
 }
 
 .cards-container img {
     height: 500px;
+    width: 100%;
+    object-fit: cover;
 }
 
 .cards {
-    padding: auto;
-    margin: 36px 0px;
     flex: 1;
 }
 
 #header {
     text-align: center;
-    background-color: #e7e2c2;
     margin: 0px;
     padding: 25px;
 }
 
-hr {
-    margin: 0px;
+#button {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    min-width: 150px;
+    border: solid black;
+    background-color: black;
+    border-radius: 5px;
+    padding: 16px;
 }
