@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#layout {
+    max-width: 1200px;
+    margin: 48px auto;
+    display: flex;
+}
+
+#thumbnail-column {
+    flex: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#featured-image-column {
+    flex: 300px;
+}
+
+#product-info-column {
+    flex: 400px;
+    padding: 0px 20px;
+}
+
+#featured-image-column img {
+    width: 100%;
+}
+
+.buttons a {
+    text-decoration: none;
+    display: block;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 36px;
+    text-align: center;
+    min-width: 150px;
+    font-size: 15px;
+    background-color: white;
+    margin: 12px 12px 12px 0px;
+}
+
+.buttons #first {
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
+
+/* LOGO */
+#navbar h1 {
+    text-align: center;
+}
+
+#one {
+    color: purple;
+}
+#two {
+    color: red;
+}
+#three {
+    color: blue;
+}
+#four {
+    color: yellow;
+}
+#five {
+    color: yellowgreen;
+}
