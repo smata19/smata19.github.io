@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Candal&family=Fondamento:ital@0;1&family=Nerko+One&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#poster {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+
+    /* REMOVE BEFORE SUBMITTING */
+    background-color: rgb(177, 177, 230);
+}
+
+.poster-heading {
+    text-align: center;
+    padding: 10px;
+
+    /* REMOVE BEFORE SUBMITTING */
+    background-color: pink;
+}
+
+.poster-heading h1 {
+    font-size: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+
+    /* REMOVE BEFORE SUBMMITTING */
+    background-color: white;
+}
+
+.poster-teams {
+    display: flex;
+    justify-content: center;
+}
+
+.poster-teams h1 {
+    /* REMOVE BEFORE SUBMITTING */
+    background-color: pink;
+
+    margin: 30px;
+    padding: 8px;
+}
+
+.poster-info {
+    text-align: center;
+    font-size: 18px;
+    padding: 20px;
+
+    /* REMOVE BEFORE SUBMITTING */
+    background-color: pink;
+}
+
