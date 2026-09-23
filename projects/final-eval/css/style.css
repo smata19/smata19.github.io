@@ -13,48 +13,84 @@ body {
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
-    padding: 20px;
+    padding: 30px;
 
     /* REMOVE BEFORE SUBMITTING */
-    background-color: rgb(177, 177, 230);
+    background-color: rgb(226, 226, 233);
 }
 
 .poster-heading {
     text-align: center;
     padding: 10px;
-
-    /* REMOVE BEFORE SUBMITTING */
-    background-color: pink;
 }
 
 .poster-heading h1 {
     font-size: 50px;
     margin-top: auto;
     margin-bottom: auto;
-
-    /* REMOVE BEFORE SUBMMITTING */
-    background-color: white;
+    font-family: "Fondamento", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .poster-teams {
     display: flex;
-    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
 }
 
 .poster-teams h1 {
-    /* REMOVE BEFORE SUBMITTING */
-    background-color: pink;
+    margin: 30px 30px;
+    padding: 50px 50px;
+}
 
-    margin: 30px;
-    padding: 8px;
+.poster-teams h3 {
+    text-align: center;
 }
 
 .poster-info {
     text-align: center;
     font-size: 18px;
     padding: 20px;
-
-    /* REMOVE BEFORE SUBMITTING */
-    background-color: pink;
 }
 
+img {
+    width: 100%;
+}
+
+.teams-2 img {
+    width: 210px;
+}
+
+.buttons a {
+    text-decoration: none;
+    display: inline-block;
+    min-width: 150px;
+    font-size: 15px;
+    padding: 20px;
+    font-weight: bold;
+    margin: 8px;
+}
+
+.primary-button {
+    color: white;
+    background-color: #003594;
+}
+
+.secondary-button {
+    background-color: #241773;
+    color: white;
+}
+
+.team-1 img {
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    padding-right: 10px;
+    margin-right: 0px;
+}
+
+.poster-info h2 {
+    margin-bottom: 40px;
+}
