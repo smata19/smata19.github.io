@@ -96,6 +96,10 @@ img {
     margin-bottom: 40px;
 }
 
-.team-1 {
-    padding-right: 50px;
+.poster-teams .teams-1 {
+    padding-right: 0px;
+}
+
+.poster-teams .teams-2 {
+    padding-left: 0px;
 }
