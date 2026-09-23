@@ -8,11 +8,12 @@ body {
 }
 
 #layout {
-    max-width: 800px;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
 }
 
+/* BASIC GALLERY */
 .basic-grid-gallery {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -25,6 +26,7 @@ body {
     width: 100%;
 }
 
+/* CROPPED GALLERY */
 .cropped-grid-gallery {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -37,4 +39,28 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+/* HORIZONTAL GALLERY */
+.horizontal-masonry-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.horizontal-masonry-gallery img {
+    height: 250px;
+    flex: 1;
+    object-fit: cover;
+}
+
+/* VERTICAL GALLERY */
+.vertical-masonry-gallery {
+    columns: 3 auto;
+    column-gap: 24px;
+}
+
+.vertical-masonry-gallery img {
+    width: 100%;
+    margin-bottom: 24px;
 }
