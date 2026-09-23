@@ -7,6 +7,7 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-color: rgb(7, 7, 65);
 }
 
 #poster {
@@ -40,8 +41,10 @@ body {
 }
 
 .poster-teams h1 {
-    margin: 30px 30px;
-    padding: 50px 50px;
+    margin-left: 20px;
+    margin-right: 80px;
+    padding: 30px;
+    text-align: center;
 }
 
 .poster-teams h3 {
@@ -86,11 +89,13 @@ img {
     background-color: white;
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 0px;
-    padding-right: 10px;
     margin-right: 0px;
 }
 
 .poster-info h2 {
     margin-bottom: 40px;
+}
+
+.team-1 {
+    padding-right: 50px;
 }
