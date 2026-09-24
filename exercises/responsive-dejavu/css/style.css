@@ -76,8 +76,8 @@ body {
     object-fit: cover;
 }
 
-@media screen and (max-width: 300px) {
-    #hero-4 .hero-content h1 {
+@media screen and (max-width: 330px) {
+    #hero-4 .hero-content h2 {
         font-size: 30px;
     }
 }
@@ -88,7 +88,7 @@ body {
         align-items: center;
     }
 
-    #hero-4 .hero-content h1 {
-        font-size: 40px;
+    #hero-4 .hero-content h2 {
+        font-size: 50px;
     }
 }
