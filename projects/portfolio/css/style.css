@@ -23,6 +23,10 @@ body {
     padding: 24px;
 }
 
+#name {
+    font-weight: bold;
+}
+
 #hero-4 {
     background-image: url("../images/urban-hi-res-1ui7.jpg");
     height: 90vh;
@@ -37,6 +41,7 @@ body {
     text-align: center;
     color: #ffffff;
     padding: 36px 30px;
+    background-color: #11111166;
 }
 
 #hero-4 h2 {
